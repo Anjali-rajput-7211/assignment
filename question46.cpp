@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int num;
+    cout << "enter a number:";
+    cin >> num;
+    if(num > 0){
+        cout << "the number is positive" << endl;
+    }
+    else if(num < 0){
+        cout << "the number is nagitive" << endl;
+    }
+    else
+        cout << "the number is zero" << endl;
+        
+    return 0;
+}
